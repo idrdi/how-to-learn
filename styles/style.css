@@ -24,6 +24,8 @@
 
 .header__title {
   width: 730px;
+  position: relative;
+  z-index: 2;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
