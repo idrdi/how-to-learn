@@ -22,6 +22,15 @@
   margin: 0;
 }
 
+.logo_place_header {
+  width: 183px;
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
 .header__title {
   width: 730px;
   position: relative;
@@ -72,13 +81,43 @@
   background-color: #2f80ed;
 }
 
-.logo_place_header {
-  width: 183px;
-  height: 32px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 2;
+.description{
+  margin: 100px auto 0;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0 0 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
 }
 
 /* и элемента с модификатором вида ключ-значение */
