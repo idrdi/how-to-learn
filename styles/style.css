@@ -272,13 +272,15 @@
 }
 
 .footer {
+  display: flex;
   box-sizing: border-box;
   min-height: 350px;
   background-color: #1f1f1f;
-  padding: 60px 5% 40px 5%;
 }
 
 .footer__columns {
+  width: 80%;
+  margin: 60px auto 40px;
   display: flex;
   justify-content: space-between;
 }
