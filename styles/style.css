@@ -21,8 +21,11 @@
   margin: 0;
 }
 
-.logo_place_header {
+.logo {
   width: 183px;
+}
+
+.logo_place_header {
   height: 32px;
   position: absolute;
   top: 30px;
@@ -31,7 +34,6 @@
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
 }
 
