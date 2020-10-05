@@ -68,6 +68,15 @@
   margin: 0;
 }
 
+.header__link:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.header__link:active {
+  color: #1f1f1f;
+}
+
 .header__main-illustration {
   height: 608px;
   width: 765px;
@@ -249,6 +258,15 @@
   color: #2f80ed;
 }
 
+.feynman__link:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.feynman__link:active {
+  color: #1f1f1f;
+}
+
 .feynman__image {
   width: 867px;
   height: 637px;
@@ -332,6 +350,14 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}
+
+.footer__link:active {
+  opacity: 0.5;
 }
 
 .footer__social-icon {
