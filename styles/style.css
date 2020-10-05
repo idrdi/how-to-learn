@@ -135,6 +135,8 @@
 
 .section-title_theme_dark {
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -148,6 +150,8 @@
 
 .section-subtitle_theme_dark {
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .table {
