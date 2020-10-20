@@ -41,3 +41,6 @@
 @import url(../blocks/feyman/__subtitle/feyman__subtitle.css);
 @import url(../blocks/feyman/__link/feyman__link.css);
 @import url(../blocks/feyman/__image/feyman__image.css);
+
+@import url(../blocks/kaufman/kaufman.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
