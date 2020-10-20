@@ -1,17 +1,17 @@
 .header__link {
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    text-decoration: none;
-    color: #2f80ed;
-    margin: 0;
-  }
-  
-  .header__link:hover {
-    opacity: 0.5;
-    text-decoration: underline;
-  }
-  
-  .header__link:active {
-    color: #1f1f1f;
-  }
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+  margin: 0;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.header__link:active {
+  color: #1f1f1f;
+}
