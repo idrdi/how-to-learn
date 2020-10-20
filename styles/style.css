@@ -1,15 +1,3 @@
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-  background-color: #f2f2f2;
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-
 .logo {
   width: 183px;
 }
@@ -24,65 +12,6 @@
 
 .logo_place_footer {
   height: 35px;
-}
-
-.header__title {
-  width: 730px;
-  position: relative;
-  z-index: 2;
-  line-height: 96px;
-  font-size: 102px;
-  font-weight: bold;
-  margin: 0 0 0 64px;
-}
-
-.header__subtitle {
-  width: 388px;
-  position: absolute;
-  bottom: 30px;
-  left: 64px;
-  z-index: 2;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 0;
-}
-
-.header__link {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
-  margin: 0;
-}
-
-.header__link:hover {
-  opacity: 0.5;
-  text-decoration: underline;
-}
-
-.header__link:active {
-  color: #1f1f1f;
-}
-
-.header__main-illustration {
-  height: 608px;
-  width: 765px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  position: absolute;
-  top: 64px;
-  right: 0;
-  background-color: #2f80ed;
 }
 
 .two-columns {
