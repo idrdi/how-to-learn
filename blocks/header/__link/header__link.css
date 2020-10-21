@@ -6,12 +6,3 @@
   color: #2f80ed;
   margin: 0;
 }
-
-.header__link:hover {
-  opacity: 0.5;
-  text-decoration: underline;
-}
-
-.header__link:active {
-  color: #1f1f1f;
-}
